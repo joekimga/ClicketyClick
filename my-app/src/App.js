@@ -3,7 +3,7 @@ import './App.css';
 import Card from "./components/Card/";
 import Wrapper from "./components/Wrapper/";
 import Header from "./components/Header/";
-import cards from "./components/Card/"
+import cards from "./cards.json"
 
 class App extends Component {
 
@@ -11,7 +11,7 @@ class App extends Component {
     cards,
     score: 0,
     highscore: 0
-  };
+  }
 
   gameOver = () => {
     if (this.state.score > this.state.highscore) {
@@ -49,6 +49,7 @@ class App extends Component {
     return (
       <Wrapper>
         <Header score={this.state.score} highscore={this.state.highscore}>Clicky Game</Header>
+        <div>
         {this.state.cards.map(card => (
           <Card
             clickCount={this.clickCount}
@@ -57,6 +58,7 @@ class App extends Component {
             image={card.image}
           />
         ))}
+        </div>
       </Wrapper>
     );
   }
