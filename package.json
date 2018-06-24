@@ -1,5 +1,6 @@
 {
   "name": "clicketyclick",
+  "homepage": "https://github.com/joekimga/ClicketyClick#readme",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -16,5 +17,5 @@
   "bugs": {
     "url": "https://github.com/joekimga/ClicketyClick/issues"
   },
-  "homepage": "https://github.com/joekimga/ClicketyClick#readme"
+
 }
