@@ -1,9 +1,10 @@
 {
   "name": "my-app",
-  "homepage": "https://joekimga.github.io/ClicketyClick/",
+  "homepage": "https://joekimga.github.io/ClicketyClick.git",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "gh-pages": "^1.2.0",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
     "react-scripts": "1.1.4"
@@ -16,7 +17,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "description": "This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).",
+  "description": "",
   "main": "index.js",
   "author": "",
   "license": "ISC"
