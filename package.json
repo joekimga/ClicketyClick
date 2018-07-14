@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/joekimga/ClicketyClick/issues"
   },
-  "homepage": "https://github.com/joekimga/ClicketyClick#readme"
+  "homepage": "https://github.com/joekimga/ClicketyClick",
+  "dependencies": {
+    "build": "^0.1.4",
+    "react-scripts": "^1.1.4"
+  }
 }
